@@ -3,6 +3,7 @@ body{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  color:white;
 }
 .navbar{
   background-color: rgba(255,255,255,0.7)!important;
@@ -17,45 +18,23 @@ li{
   /* padding-left: 5vh;
   padding-right:5vh; */
 }
+.main{
+  font-family: 'Montserrat', sans-serif;
+  color: white!important;
+}
 .submit{
     font-family: 'Montserrat', sans-serif;
     padding:1vh!important;
-    width: 20%!important;
+    width: 30vh;
     border-radius: 20px;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.9);
 }
 .submit:hover{
   background-color: white!important;
   cursor:pointer;
 }
-.navbar-brand{
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight: bold;
-}
-.div0{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3vh;
-  color:white;
-  text-align: center;
-}
-.table{
-  /* background-color: rgba(255,255,255,0.05)!important; */
-  padding:5vh!important;
-  padding: 4vh!important;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2vh;
-  color: white;
-  margin-top: 5vh;
-}
-th{
-  /* padding-left: 2vh!important; */
-  padding: 1vh!important;
-}
-input{
-  background-color: rgba(255,255,255,0.9)!important;
-  border-radius: 80px!important;
-  padding:2vh!important;
-}
+
+
 .pagefooter{
   margin-top: 5vh!important;
   background-color:rgba(255,255,255,0.7);

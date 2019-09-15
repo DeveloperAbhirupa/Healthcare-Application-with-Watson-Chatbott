@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="src/stylesheet/index.css">
+    <link rel="stylesheet" href="../src/stylesheet/signup.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
@@ -41,12 +41,122 @@
     </ul>
   </div>
   </nav>
+<br><br>
+<!-- Table for form -->
+  <div class="main container-fluid" >
+      <div class="div0" align="center">
+        Hey! Give us a minute to set you all up!
+      </div>
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-6" align="center">
+        <!-- Form -->
+        <form name="form" enctype="multipart/form-data" method="get" action="#">
+        <table class="table table-borderless">
+          <tbody>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="email">Email address</label></th>
+              <th scope="col"><input type="email" name="email" class="form-control" id="email" placeholder="Enter email"></th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="psw">Password</label></th>
+              <th scope="col"><input type="password" name="psw" class="form-control" id="psw" placeholder="Enter password"></th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="psw1">Re-enter Password</label></th>
+              <th scope="col"><input type="password" name="psw1" class="form-control" id="psw1" placeholder="Enter password"></th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label >Gender</label></th>
+              <th scope="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" id="Male" value="Male">
+                  <label class="form-check-label" for="Male">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" id="Female" value="Female">
+                  <label class="form-check-label" for="Female">Female</label>
+                </div>
+              </th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label >Pregnancy</label></th>
+              <th scope="col">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" id="pyes" value="pyes">
+                  <label class="form-check-label" for="pyes">Ongoing</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" id="pno" value="pno">
+                  <label class="form-check-label" for="pno">No</label>
+                </div>
+              </th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="psys">Systolic Pressure</label></th>
+              <th scope="col"><input type="number" name="psys" class="form-control" id="psys" placeholder="Enter systolic pressure"></th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="psys">Diastolic Pressure</label></th>
+              <th scope="col"><input type="number" name="pdias" class="form-control" id="pdias" placeholder="Enter diastolic pressure"></th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="psys">Systolic Pressure</label></th>
+              <th scope="col"><input type="number" name="psys" class="form-control" id="psys" placeholder="Enter systolic pressure"></th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="pr">Pulse Rate</label></th>
+              <th scope="col"><input type="number" name="pr" class="form-control" id="pr" placeholder="Enter Pulse Rate"></th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="bmi">Body Mass Index</label></th>
+              <th scope="col"><input type="number" name="bmi" class="form-control" id="bmi" placeholder="Enter BMI"></th>
+            </tr>
+            </div>
+            <div class="form-group">
+            <tr>
+              <th scope="col"><label for="glu">Glucose Level</label></th>
+              <th scope="col"><input type="number" name="glu" class="form-control" id="glu" placeholder="Enter glucose level"></th>
+            </tr>
+            </div>
+
+
+
+          </tbody>
+        </table>
+        <br>
+        <input class="submit" type="submit" value="Submit"/>
+      </div>
+      <div class="col-sm-3">
+      </div>
+    </div>
+  </div>
 
 
 
 
 
-  
+
 
 
 
