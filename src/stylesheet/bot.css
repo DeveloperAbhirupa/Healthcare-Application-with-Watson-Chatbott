@@ -1,0 +1,51 @@
+body{
+  background-image: url("../images/bg1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+.navbar{
+  background-color: rgba(255,255,255,0.7)!important;
+}
+
+.centrenav{
+  width: 100vh!important;
+}
+li{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vh;
+  /* padding-left: 5vh;
+  padding-right:5vh; */
+}
+.main{
+  font-family: 'Montserrat', sans-serif;
+  color: white!important;
+}
+.submit{
+    font-family: 'Montserrat', sans-serif;
+    padding:1vh!important;
+    width: 30vh;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.9);
+}
+.submit:hover{
+  background-color: white!important;
+  cursor:pointer;
+}
+
+
+.pagefooter{
+  margin-top: 5vh!important;
+  background-color:rgba(255,255,255,0.7);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+  color: black;
+  padding:4vh;
+
+}
+.copyright{
+  margin-top: 5vh;
+}

@@ -42,65 +42,17 @@
   </div>
   </nav>
 <br>
+<script type="text/javascript">
+    window._chatlio = window._chatlio||[];
+    !function(){ var t=document.getElementById("chatlio-widget-embed");if(t&&window.ChatlioReact&&_chatlio.init)return void _chatlio.init(t,ChatlioReact);for(var e=function(t){return function(){_chatlio.push([t].concat(arguments)) }},i=["configure","identify","track","show","hide","isShown","isOnline", "page", "open", "showOrHide"],a=0;a<i.length;a++)_chatlio[i[a]]||(_chatlio[i[a]]=e(i[a]));var n=document.createElement("script"),c=document.getElementsByTagName("script")[0];n.id="chatlio-widget-embed",n.src="https://w.chatlio.com/w.chatlio-widget.js",n.async=!0,n.setAttribute("data-embed-version","2.3");
+       n.setAttribute('data-widget-options', '{"embedInline": true}');
+       n.setAttribute('data-widget-id','83548472-5e8a-48a9-4db3-0fefc0c3efda');
+       c.parentNode.insertBefore(n,c);
+    }();
+</script>
 
-<!-- Table for form -->
-<div class="container-fluid main">
-  <div class="row">
-      <div class="col-sm-2" ></div>
-      <div class="col-sm-4" id="rec" >
-        <br>
-        <div id="data">
-          <table class="table table-borderless">
-            <thead>
-              <tr>
-                <th scope="col">Criteria</th>
-                <th scope="col">Value</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Systolic Pressure</th>
-                <td>132</td>
-              </tr>
-              <tr>
-                <th scope="row">Diastolic Pressure</th>
-                <td>89</td>
-              </tr>
-              <tr>
-                <th scope="row">Pulse Rate</th>
-                <td>68</td>
-              </tr>
-              <tr>
-                <th scope="row">BMI</th>
-                <td>30</td>
-              </tr>
-              <tr>
-                <th scope="row">Glucose Level</th>
-                <td>5.4</td>
-              </tr>
-            </tbody>
-          </table>
-
-        </div>
-
-      </div>
-
-
-      <div class="col-sm-6" id="" align="center">
-        <br><br><br>
-        <input class="submit" type="submit"  value="Talk To An Assistant"  onclick="location.href = 'watson.html';"><br><br>
-        <input class="submit" type="submit"  value="Make An Appointment" onclick="location.href = 'geo.html';"><br><br>
-        <input class="submit" type="submit"  value="Assess Glucose Level" onclick="location.href = 'geo.html';"><br><br>
-        <input class="submit" type="submit"  value="Assess Blood Pressure"  onclick="location.href = 'geo.html';"><br><br>
-      </div>
-  </div>
-  <div class="row">
-      <canvas id="myChart"></canvas>
-  </div>
-</div>
-
-
-
+<!-- Add this div in your DOM where you want the inline div to be inserted by Chatlio, change height/width to fit your needs -->
+<div id="chatlioWidgetPlaceholder" style="margin: auto; height: 400px;width:400px;"></div>
 
 
 
